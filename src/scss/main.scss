@@ -1,5 +1,6 @@
 @import "_normalize";
 @import "_variables";
+@import "navigation";
 
 
 html {
@@ -8,9 +9,19 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
 }
 
 body {
-  color: $yellow;
-  background: $violet;
+  
+  background:url(../assets/img/nav_background.jpg);
+  -webkit-backdrop-size:cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
 }
