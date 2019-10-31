@@ -1,7 +1,8 @@
 @import "_normalize";
 @import "_variables";
 @import "navigation";
-
+@import "abaut";
+@import url('https://fonts.googleapis.com/css?family=Lobster|Staatliches&display=swap&subset=latin-ext');
 
 html {
   box-sizing: border-box;
@@ -19,7 +20,8 @@ html {
 
 body {
   
-  background:url(../assets/img/nav_background.jpg);
+  background-color: darkgray;
+  
   -webkit-backdrop-size:cover;
   background-size: cover;
   background-position: center center;
