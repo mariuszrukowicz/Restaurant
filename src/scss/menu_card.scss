@@ -1,0 +1,88 @@
+#slider {
+  overflow: hidden;
+  border-left: 30px solid darkgray;
+  border-right: 30px solid darkgray;
+  max-height: 1100px;
+  margin-bottom: 30px;
+}
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+#slider figure img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+.menuCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  &--header {
+    color: black;
+    font-size: 3rem;
+  }
+  &--description {
+    font-size: 2rem;
+    padding: 10px 10px 10px 10px;
+    margin: 2rem 2rem 2rem 2rem;
+  }
+  &--list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 3rem 3rem 3rem 3rem;
+    list-style-type: none;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    
+  }
+  &--list-header{
+    font-family: "Roboto Condensed", sans-serif, initial, justify;
+      font-size: 30px;
+
+      
+  }
+  &--list-item{
+      
+      font-family: "Roboto Condensed", sans-serif, initial, justify;
+      font-size: 20px;
+      letter-spacing: 1px;
+      line-height: 25px;
+      padding: 10px 10px 10px 10px;
+  }
+}

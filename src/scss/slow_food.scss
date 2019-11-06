@@ -1,37 +1,31 @@
-.slowFood{
-   background-color: white;
-   border-left: 30px solid darkgray;
-    border-right: 30px solid darkgray;
+.slowFood {
+  background-color: white;
+  border-left: 30px solid darkgray;
+  border-right: 30px solid darkgray;
+  text-align: center;
+
+  &__description {
+    font-family: "Roboto Condensed", sans-serif, initial, justify;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 10px 10px 10px 10px;
+  }
+  &__header {
+    margin-top: 40px;
+    margin-bottom: 20px;
     text-align: center;
-  
-     
-    &__description{
-      font-family: 'Roboto Condensed', sans-serif, initial, justify;
-      font-size: 20px;
-      letter-spacing: 1px;
-      line-height: 25px;
-      
-     
-    }
-   &__header{
-      
-      margin-top: 40px;
-      margin-bottom: 20px;
-      text-align: center;
-      font-size: 2rem;
-      padding-top: 40px;
-
-   }
-  &__list{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   margin: 2rem 2rem 2rem 2rem;
-   text-decoration: none;
-   padding: 2rem 2rem 2rem 2rem;
-   list-style-type: none;
-   column-gap: 2rem;
-   row-gap: 2rem;
-
+    font-size: 2rem;
+    padding-top: 40px;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 3rem 3rem 3rem 3rem;
+    list-style-type: none;
+    column-gap: 2rem;
+    row-gap: 2rem;
+  }
 }
-  
-}
+

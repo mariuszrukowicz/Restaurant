@@ -1,94 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Restaurant</title>
+    <meta name="description" content="Description" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Restaurant</title>
-  <meta name="description" content="Description" />
+    <!-- Title -->
+    <meta property="og:title" content="" />
+    <!-- OPTIONAL description. 2-4 sentences. -->
+    <meta property="og:description" content="" />
+    <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
+    <meta property="og:url" content="" />
+    <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
+    <meta property="og:image" content="" />
 
-  <!-- Title -->
-  <meta property="og:title" content="" />
-  <!-- OPTIONAL description. 2-4 sentences. -->
-  <meta property="og:description" content="" />
-  <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
-  <meta property="og:url" content="" />
-  <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-  <meta property="og:image" content="" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
 
-  <link rel="manifest" href="manifest.json" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-  <link rel="stylesheet" href="css/main.css" />
-</head>
+  <body>
+    <section class="main-wrapper">
+      <div class="custom-padding">
+        <nav>
+          <div class="logo">Restaurant</div>
+          <ul class="menu-area">
+            <li><a href="#">O nas</a></li>
+            <li><a href="#">Slow food</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Rezerwacje</a></li>
+            <li><a href="#">Imprezy</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+        <section class="logo-image">RESTAURANT</section>
+      </div>
 
-<body>
-  <section class="main-wrapper">
-    <div class="custom-padding">
-      <nav>
-        <div class="logo">Restaurant</div>
-        <ul class="menu-area">
-          <li><a href="#">O nas</a></li>
-          <li><a href="#">Slow food</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Rezerwacje</a></li>
-          <li><a href="#">Imprezy</a></li>
-          <li><a href="#">Kontakt</a></li>
+      <section class="abaut">
+        <h2 class="abaut__header">O nas</h2>
+        <p class="abaut__description">
+          Retaurant to najprostsza a zarazem najbogatsza forma współczesnej
+          kuchni.
+        </p>
+        <p class="abaut__description">
+          Najprostsza, ponieważ nasza technika kulinarna jest w &nbsp;całości
+          podporządkowana sezonowym smakom przy jednoczesnym ukazaniu jakości
+          stosowanych produktów. Najbogatsza, ponieważ traktujemy jakość
+          produktów bezkompromisowo. Mięsa kupujemy wyłącznie od &nbsp;znanych
+          nam hodowców, tak samo jak przetwory, soki czy miody.
+        </p>
+      </section>
+      <section class="slowFood">
+        <h2 class="slowFood__header">Slow Food</h2>
+        <p class="slowFood__header">Nasz dekalog brzmi</p>
+        <ul class="slowFood__list">
+          <li class="slowFood__description">
+            1. Jak mówimy i piszemy - tak robimy. Można nam wierzyć na słowo -
+            to mówione i to pisane. Podajemy dokładnie takie dania, jak je
+            przedstawiliśmy w naszej karcie
+          </li>
+
+          <li class="slowFood__description">
+            2. Nie poddajemy się modom - my je wyznaczamy. Robimy rzeczy, które
+            inni uważają za niemożliwe. Zamiast podążać za trendami panującymi w
+            świecie kulinarnym, sami je wyznaczamy. Mamy własny pomysł i
+            jesteśmy mu wierni.
+          </li>
+
+          <li class="slowFood__description">
+            3. Podstawą jest dla nas świetny polski produkt. Szczycimy się
+            umiejętnością zdobywania unikalnych produktów oraz tym, że potrafimy
+            wykorzystać ich potencjał. Dążymy do tego, aby w naszej kuchni
+            używać składników zdecydowanej większości polskich lub takich, które
+            związane są z polską tradycją kulinarną. Wyjątek robimy dla
+            produktów rzemieślniczych pochodzących od naszych bliskich sąsiadów.
+            Odstępujemy od tej reguły również, gdy korzystamy z rzadka
+            spotykanych dóbr z bardziej odległych krajów.
+          </li>
+
+          <li class="slowFood__description">
+            4. Wybieramy składniki zgodnie z porą roku. Gotując sięgamy do
+            natury, a komponując potrawy podążamy za cyklem przyrody. Dania
+            tworzymy w oparciu o produkty sezonowe oraz takie, które w naturalny
+            sposób na dłuższy czas zachowują swoje właściwości (np. fasola,
+            niektóre warzywa okopowe, suszone grzyby). Nie stronimy od kiszonek,
+            marynat i tradycyjnych przetworów.
+          </li>
+
+          <li class="slowFood__description">
+            5. Nie mrozimy czego nie należy Świeżość produktów jest naszą
+            obsesją. Mięsa i ryby serwowane w restauracji nigdy nie są mrożone.
+            Jeśli zdarzy nam się coś zamrozić, to nasi goście mogą być pewni, że
+            dany produkt tego potrzebuje (dziczyzna lub jarzębina), w taki
+            sposób, aby oddał do potrawy możliwie najwięcej tego, co niesie w
+            sobie dobrego. Może stać się pasztetem, dodatkiem do bigosu lub
+            farszem do pierogów.
+          </li>
         </ul>
-      </nav>
-      <section class="logo-image">RESTAURANT</section>
-    </div>
+      </section>
+      <section class="slider">
+        <div id="slider">
+          <figure>
+            <img src="../assets/img/1.jpg" />
+            <img src="../assets/img/3.jpg" />
+            <img src="../assets/img/3.jpg" />
+            <img src="../assets/img/4.jpg" />
+            <img src="../assets/img/1.jpg" />
+          </figure>
+        </div>
+      </section>
+      <section class="menuCard">
+        <h2 class="menuCard--header">MENU</h2>
+        <p class="menuCard--description">
+          w menu Restaurant nie znajdziecie Państwo dań opartych na
+          przypadkowych składnikach.<br> Znamy osobiśćie naszych dostawców i dzięki
+          nim możeny nawiązać do najlepszych kart w Polsce.
+        </p>
+        <ol class="menuCard--list">
+          <li class="menuCard--list-header"> Przystawki
+            <ul class="menuCard--list-item">Tatar z jelenia z jarzębiną  </ul>
+            <ul class="menuCard--list-item">Carpaccio wołowe z majonezem borowikowym</ul>
+            <ul class="menuCard--list-item">Wędzona troć z sosem ostrygowym</ul>
+            <ul class="menuCard--list-item">Smażone foie gras ze śliwką i brioche</ul>
+            <ul class="menuCard--list-item">Pielmieni z jagnięciną, polane masłem</ul>
+          </li>
+          <li class="menuCard--list-header"> Główne dania
+              <ul class="menuCard--list-item">Perliczka z marynowaną dynią i morelą</ul>
+              <ul class="menuCard--list-item">Wołowina à la Tremo z grzybami i szpinakiem</ul>
+              <ul class="menuCard--list-item">Kotlet cielęcy z sadzonym jajkiem i grzybami</ul>
+              <ul class="menuCard--list-item">Kaczka z żurawiną i figami</ul>
+              <ul class="menuCard--list-item">Królewski Burger z homara</ul>
+            </li>
+            <li class="menuCard--list-header"> Specjalna Selekcja Steków
+                <ul class="menuCard--list-item">Polędwica wołowa / Paragwaj / 200 g</ul>
+                <ul class="menuCard--list-item">Antrykot Wagyū / Australia / 300g</ul>
+                <ul class="menuCard--list-item">Wagyū / Japonia/ 100 g</ul>
+                <ul class="menuCard--list-item">Rostbef Amerykański/ 250 g</ul>
+              </li>
+              <li class="menuCard--list-header"> Desery
+                  <ul class="menuCard--list-item">Pieczony sernik z rokitnikiem (130 g)</ul>
+                  <ul class="menuCard--list-item">Śliwki z kremem Sabayone (120 g)</ul>
+                  <ul class="menuCard--list-item">Brownie z sosem pomarańczowym (120 g)</ul>
+                  <ul class="menuCard--list-item">Tarta Tatin (120 g)</ul>
 
-    <section class="abaut">
-      <h2 class="abaut__header">O nas</h2>
-      <p class="abaut__description"> Retaurant to najprostsza a zarazem najbogatsza forma
-        współczesnej kuchni.</p>
-      <p class="abaut__description"> Najprostsza, ponieważ nasza technika kulinarna jest w &nbsp;całości podporządkowana
-        sezonowym smakom przy jednoczesnym ukazaniu jakości stosowanych produktów. Najbogatsza, ponieważ traktujemy
-        jakość produktów bezkompromisowo. Mięsa kupujemy wyłącznie od &nbsp;znanych nam hodowców, tak samo jak
-        przetwory, soki czy miody.</p>
 
+        
+
+                </li>
+         
+        </ol>
+        
+      </section>
     </section>
-    <section class="slowFood">
-      <h2 class="slowFood__header">Slow Food</h2>
-      <p class="slowFood__header"> Nasz dekalog brzmi</p>
-    <ul class="slowFood__list">
-      <li class="slowFood__description"> 1. Jak mówimy i piszemy - tak robimy.
-        Można nam wierzyć na słowo - to mówione i to pisane. Podajemy dokładnie takie dania, jak je przedstawiliśmy w
-        naszej karcie</li>
 
-        <li class="slowFood__description">2. Nie poddajemy się modom - my je wyznaczamy.
-        Robimy rzeczy, które inni uważają za niemożliwe. Zamiast podążać za trendami panującymi w świecie kulinarnym,
-        sami je wyznaczamy. Mamy własny pomysł i jesteśmy mu wierni.</li>
-
-        <li class="slowFood__description">3. Podstawą jest dla nas świetny polski produkt.
-        Szczycimy się umiejętnością zdobywania unikalnych produktów oraz tym, że potrafimy wykorzystać ich potencjał.
-        Dążymy do tego, aby w naszej kuchni używać składników zdecydowanej większości polskich lub takich, które
-        związane są z polską tradycją kulinarną. Wyjątek robimy dla produktów rzemieślniczych pochodzących od naszych
-        bliskich sąsiadów. Odstępujemy od tej reguły również, gdy korzystamy z rzadka spotykanych dóbr z bardziej
-        odległych krajów.</li>
-
-        <li class="slowFood__description">4. Wybieramy składniki zgodnie z porą roku.
-        Gotując sięgamy do natury, a komponując potrawy podążamy za cyklem przyrody. Dania tworzymy w oparciu o produkty
-        sezonowe oraz takie, które w naturalny sposób na dłuższy czas zachowują swoje właściwości (np. fasola, niektóre
-        warzywa okopowe, suszone grzyby). Nie stronimy od kiszonek, marynat i tradycyjnych przetworów.</li>
-
-        <li class="slowFood__description">5. Nie mrozimy czego nie należy
-      Świeżość produktów jest naszą obsesją. Mięsa i ryby serwowane w restauracji nigdy nie są mrożone. Jeśli zdarzy
-      nam się coś zamrozić, to nasi goście mogą być pewni, że dany produkt tego potrzebuje (dziczyzna lub jarzębina),
-      w taki sposób, aby oddał do potrawy możliwie najwięcej tego, co niesie w sobie dobrego. Może stać się pasztetem,
-      dodatkiem do bigosu lub farszem do pierogów.</li>
-      
-    </ul>
-     
-
-    </section>
-
-
-  </section>
-
-  <script src="js/main.js"></script>
-</body>
-
+    <script src="js/main.js"></script>
+  </body>
 </html>
