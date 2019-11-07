@@ -1,0 +1,25 @@
+.event{
+    display: block;
+    margin: 40px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2rem;
+    font-family: 'Roboto Condensed', sans-serif, initial, justify;
+    font-size: 1.5rem;
+    border-left: 30px solid darkgray;
+    border-right: 30px solid darkgray;
+    text-align: center;
+    background-color: $darkgreen;
+    color: white;
+    
+    &--header{
+        padding-top: 2rem;
+        
+        font-size: 2.7rem;
+        margin-bottom: 3rem;
+       
+    }
+    &--description{
+        line-height: 40px;
+    }
+}
