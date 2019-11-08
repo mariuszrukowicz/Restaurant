@@ -316,7 +316,7 @@ template {
   text-transform: uppercase;
   display: block;
   padding: 0 25 px;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 30px;
   position: relative;
   z-index: 1;
@@ -398,7 +398,7 @@ nav:after {
   margin: 0 auto;
   padding-left: 100px;
   padding-right: 100px;
-  font-family: 'Roboto Condensed', sans-serif, initial, justify;
+  padding-bottom: 2rem;
   font-size: 1.5rem;
   border-left: 30px solid darkgray;
   border-right: 30px solid darkgray;
@@ -407,7 +407,7 @@ nav:after {
   color: white;
   line-height: 40px; }
   .abaut__header {
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: center; }
   .abaut__description {
@@ -419,12 +419,12 @@ nav:after {
   border-left: 30px solid darkgray;
   border-right: 30px solid darkgray;
   text-align: center;
-  font-size: 1,5rem; }
+  font-size: 1.5rem;
+  font-family: "Roboto Condensed", sans-serif, initial, justify;
+  padding-bottom: 2rem; }
   .slowFood__description {
-    font-family: "Roboto Condensed", sans-serif, initial, justify;
-    font-size: 1,5rem;
     letter-spacing: 1px;
-    line-height: 25px;
+    line-height: 40px;
     padding: 10px 10px 10px 10px; }
   .slowFood__header {
     margin-top: 40px;
@@ -521,9 +521,9 @@ nav:after {
   margin-top: 50px; }
   .menuCard--header {
     color: black;
-    font-size: 3rem; }
+    font-size: 2rem; }
   .menuCard--description {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 10px 10px 10px 10px;
     margin: 2rem 2rem 2rem 2rem; }
   .menuCard--list {
@@ -542,12 +542,12 @@ nav:after {
     margin-top: 2,5rem;
     font-family: "Roboto Condensed", sans-serif, initial, justify;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 2rem; }
   .menuCard--list-item {
     font-family: "Roboto Condensed", sans-serif, initial, justify;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     line-height: 25px;
     padding: 10px 10px 10px 10px;
@@ -573,7 +573,7 @@ nav:after {
     display: block;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif, initial, justify;
-    font-size: 2.7rem; }
+    font-size: 2.5rem; }
   .contact--list {
     list-style-type: none;
     display: -ms-grid;
@@ -606,7 +606,6 @@ nav:after {
   padding-right: 20px;
   padding-bottom: 2rem;
   font-family: 'Roboto Condensed', sans-serif, initial, justify;
-  font-size: 1.5rem;
   border-left: 30px solid darkgray;
   border-right: 30px solid darkgray;
   text-align: center;
@@ -614,10 +613,11 @@ nav:after {
   color: white; }
   .event--header {
     padding-top: 2rem;
-    font-size: 2.7rem;
+    font-size: 2rem;
     margin-bottom: 2rem; }
   .event--description {
-    line-height: 40px; }
+    line-height: 40px;
+    font-size: 1.5rem; }
 
 html {
   -webkit-box-sizing: border-box;
