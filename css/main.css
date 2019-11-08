@@ -195,7 +195,7 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText; }
+  outline: 0.062rem dotted ButtonText; }
 
 /**
  * Correct the padding in Firefox.
@@ -312,33 +312,36 @@ template {
 .menu-area li a {
   text-decoration: none;
   color: #fff;
-  letter-spacing: 1px;
+  letter-spacing: 0.062rem;
   text-transform: uppercase;
   display: block;
-  padding: 0 25 px;
-  font-size: 20px;
-  line-height: 30px;
+  padding: 0 1.56rem;
+  font-size: 1.25rem;
+  line-height: 1.86rem;
   position: relative;
   z-index: 1;
-  margin-right: 20px; }
+  margin-right: 1.25rem; }
 
 .menu-area li {
   list-style: none;
   display: inline-block; }
 
 .custom-padding {
-  padding-top: 25px;
+  padding-top: 1.56rem;
   display: block; }
+  @media (max-width: 1180px) {
+    .custom-padding {
+      padding: 1px 1px 1px; } }
 
 nav {
   position: fixed;
   top: 0;
-  padding: 10px 20px 10px 10px;
+  padding: 0.626rem 1.25rem 0.626rem 0.626rem;
   text-align: right;
   z-index: 1;
   background: #01594d;
   margin: auto;
-  width: calc(100% - 20px);
+  width: calc(100% - 1.25rem);
   right: 0.4rem; }
 
 .logo {
@@ -346,7 +349,7 @@ nav {
   float: left;
   text-transform: uppercase;
   color: #fff;
-  font-size: 25px;
+  font-size: 1.56rem;
   text-align: left;
   padding-left: 2%; }
 
@@ -359,20 +362,20 @@ nav:before {
   content: "";
   left: 0;
   top: 100%;
-  border-top: 10px solid #01594d;
-  border-right: 10px solid #01594d;
-  border-left: 10px solid trasparent;
-  border-bottom: 10px solid transparent; }
+  border-top: 0.626rem solid #01594d;
+  border-right: 0.626rem solid #01594d;
+  border-left: 0.626rem solid trasparent;
+  border-bottom: 0.626rem solid transparent; }
 
 nav:after {
   position: absolute;
   content: "";
   right: 0;
   top: 100%;
-  border-top: 10px solid #01594d;
-  border-right: 10px solid transparent;
-  border-left: 10px solid #01594d;
-  border-bottom: 10px solid transparent; }
+  border-top: 0.626rem solid #01594d;
+  border-right: 0.626rem solid transparent;
+  border-left: 0.626rem solid #01594d;
+  border-bottom: 0.626rem solid transparent; }
 
 .logo-image {
   background: url(../assets/img/nav_background.jpg) center center;
@@ -385,9 +388,9 @@ nav:after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-width: 100px;
-  min-height: 800px;
-  margin: 30px;
+  min-width: 6.25rem;
+  min-height: 50rem;
+  margin: 1.875rem;
   font-family: "Staatliches", cursive;
   font-size: 5rem;
   -webkit-font-kerning: inherit;
@@ -396,16 +399,16 @@ nav:after {
 .abaut {
   display: block;
   margin: 0 auto;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
   padding-bottom: 2rem;
   font-size: 1.5rem;
-  border-left: 30px solid darkgray;
-  border-right: 30px solid darkgray;
+  border-left: 1.875rem solid darkgray;
+  border-right: 1.875rem solid darkgray;
   text-align: center;
   background: #01594d;
   color: white;
-  line-height: 40px; }
+  line-height: 2.5rem; }
   .abaut__header {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -416,22 +419,22 @@ nav:after {
 .slowFood {
   background: #01594d;
   color: white;
-  border-left: 30px solid darkgray;
-  border-right: 30px solid darkgray;
+  border-left: 1.875rem solid darkgray;
+  border-right: 1.875rem solid darkgray;
   text-align: center;
   font-size: 1.5rem;
   font-family: "Roboto Condensed", sans-serif, initial, justify;
   padding-bottom: 2rem; }
   .slowFood__description {
-    letter-spacing: 1px;
-    line-height: 40px;
-    padding: 10px 10px 10px 10px; }
+    letter-spacing: 0.062rem;
+    line-height: 2.5rem;
+    padding: 0.626rem 0.626rem 0.626rem 0.626rem; }
   .slowFood__header {
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
     text-align: center;
     font-size: 2rem;
-    padding-top: 40px; }
+    padding-top: 2.5rem; }
   .slowFood__list {
     display: -ms-grid;
     display: grid;
@@ -447,10 +450,10 @@ nav:after {
 
 #slider {
   overflow: hidden;
-  border-left: 30px solid darkgray;
-  border-right: 30px solid darkgray;
-  max-height: 1100px;
-  margin-bottom: 30px; }
+  border-left: 1.875rem solid darkgray;
+  border-right: 1.875rem solid darkgray;
+  max-height: 16.25rem;
+  margin-bottom: 1.875rem; }
 
 #slider figure {
   position: relative;
@@ -524,7 +527,7 @@ nav:after {
     font-size: 2rem; }
   .menuCard--description {
     font-size: 1.5rem;
-    padding: 10px 10px 10px 10px;
+    padding: 0.626rem 0.626rem 0.626rem 0.626rem;
     margin: 2rem 2rem 2rem 2rem; }
   .menuCard--list {
     display: -ms-grid;
@@ -548,25 +551,25 @@ nav:after {
     font-family: "Roboto Condensed", sans-serif, initial, justify;
     text-align: center;
     font-size: 1.5rem;
-    letter-spacing: 1px;
-    line-height: 25px;
-    padding: 10px 10px 10px 10px;
-    margin-top: 10px; }
+    letter-spacing: 0.062rem;
+    line-height: 1.56rem;
+    padding: 0.626rem 0.626rem 0.626rem 0.626rem;
+    margin-top: 0.626rem; }
 
 .list-item--price {
   text-align: center;
-  margin-top: 5px;
+  margin-top: 0.3rem;
   margin-bottom: 1.7rem;
   font-size: 1.7rem; }
 
 .contact {
-  border-left: 30px solid darkgray;
-  border-right: 30px solid darkgray;
+  border-left: 1.875rem solid darkgray;
+  border-right: 1.875rem solid darkgray;
   background-color: #01594d;
   color: white;
-  margin: 20px auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin: 1.25rem auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
   padding-top: 2rem;
   padding-bottom: 2rem; }
   .contact--header {
@@ -588,26 +591,26 @@ nav:after {
     margin: 2rem  auto auto 1rem;
     font-family: 'Roboto Condensed', sans-serif, initial, justify;
     font-size: 1.5rem;
-    line-height: 40px; }
+    line-height: 2.5rem; }
   .contact--list-description {
-    margin-top: 10px;
-    margin-bottom: 30px; }
+    margin-top: 0.626rem;
+    margin-bottom: 1.875rem; }
 
 .map {
   position: relative;
   overflow: hidden;
-  border-left: 30px solid darkgray;
-  border-right: 30px solid darkgray; }
+  border-left: 1.875rem solid darkgray;
+  border-right: 1.875rem solid darkgray; }
 
 .event {
   display: block;
-  margin: 40px auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin: 2.5rem auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
   padding-bottom: 2rem;
   font-family: 'Roboto Condensed', sans-serif, initial, justify;
-  border-left: 30px solid darkgray;
-  border-right: 30px solid darkgray;
+  border-left: 1.875rem solid darkgray;
+  border-right: 1.875rem solid darkgray;
   text-align: center;
   background-color: #01594d;
   color: white; }
@@ -616,7 +619,7 @@ nav:after {
     font-size: 2rem;
     margin-bottom: 2rem; }
   .event--description {
-    line-height: 40px;
+    line-height: 2.5rem;
     font-size: 1.5rem; }
 
 html {
@@ -624,11 +627,17 @@ html {
           box-sizing: border-box;
   scroll-behavior: smooth;
   font-size: 16px; }
+  @media (max-width: 1180px) {
+    html {
+      font-size: 15px; } }
+  @media (max-width: 767px) {
+    html {
+      font-size: 12px; } }
   html ::-webkit-scrollbar {
     width: 8px;
     background-color: #01594d; }
   html ::-webkit-scrollbar-thumb {
-    border-radius: 10px;
+    border-radius: 0.626rem;
     background-color: darkgray;
     -webkit-box-shadow: inset 0 0 6px rgba(77, 70, 70, 0.3);
             box-shadow: inset 0 0 6px rgba(77, 70, 70, 0.3); }
