@@ -327,16 +327,19 @@ template {
   display: inline-block; }
 
 .custom-padding {
-  padding-top: 25px; }
+  padding-top: 25px;
+  display: block; }
 
 nav {
-  position: relative;
+  position: fixed;
+  top: 0;
   padding: 10px 20px 10px 10px;
   text-align: right;
   z-index: 1;
   background: #01594d;
-  margin: 0 auto;
-  width: calc(100% - 60px); }
+  margin: auto;
+  width: calc(100% - 20px);
+  right: 0.4rem; }
 
 .logo {
   width: 15%;
