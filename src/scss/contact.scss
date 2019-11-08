@@ -1,11 +1,11 @@
 .contact{
-    border-left: 30px solid darkgray;
-    border-right: 30px solid darkgray;
+    border-left: 1.875rem solid darkgray;
+    border-right: 1.875rem solid darkgray;
     background-color: $darkgreen;
     color: white;
-    margin: 20px auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 1.25rem auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     
@@ -31,19 +31,19 @@
         font-family: 'Roboto Condensed', sans-serif, initial, justify;
     font-size: 1.5rem;
     
-    line-height: 40px;
+    line-height: 2.5rem;
     
     
     }
     &--list-description{
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 0.626rem;
+    margin-bottom: 1.875rem;
     }
 }
 
 .map{
     position: relative ;
     overflow: hidden;
-    border-left: 30px solid darkgray;
-    border-right: 30px solid darkgray;
+    border-left: 1.875rem solid darkgray;
+    border-right: 1.875rem solid darkgray;
 }

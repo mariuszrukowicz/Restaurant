@@ -1,35 +1,39 @@
 .menu-area li a {
   text-decoration: none;
   color: #fff;
-  letter-spacing: 1px;
+  letter-spacing: 0.062rem;
   text-transform: uppercase;
   display: block;
-  padding: 0 25 px;
-  font-size: 20px;
-  line-height: 30px;
+  padding: 0 1.56rem;
+  font-size: 1.25rem;
+  line-height: 1.86rem;
   position: relative;
   z-index: 1;
-  margin-right: 20px;
+  margin-right: 1.25rem;
+
 }
 .menu-area li {
   list-style: none;
   display: inline-block;
 }
 .custom-padding {
-  padding-top: 25px;
+  padding-top: 1.56rem;
   display: block;
   ;
+  @media (max-width:$mobile-one) {
+    padding: 1px 1px 1px;
+}
 }
 nav {
   position: fixed ;
   top: 0;
   
-  padding: 10px 20px 10px 10px;
+  padding: 0.626rem 1.25rem 0.626rem 0.626rem;
   text-align: right;
   z-index: 1;
   background: $darkgreen;
   margin:  auto;
-  width: calc(100% - 20px);
+  width: calc(100% - 1.25rem);
   right: 0.4rem;
 }
 .logo {
@@ -37,7 +41,7 @@ nav {
   float: left;
   text-transform: uppercase;
   color: #fff;
-  font-size: 25px;
+  font-size: 1.56rem;
   text-align: left;
   padding-left: 2%;
 }
@@ -51,20 +55,20 @@ nav:before {
   content: "";
   left: 0;
   top: 100%;
-  border-top: 10px solid $darkgreen;
-  border-right: 10px solid $darkgreen;
-  border-left: 10px solid trasparent;
-  border-bottom: 10px solid transparent;
+  border-top: 0.626rem solid $darkgreen;
+  border-right: 0.626rem solid $darkgreen;
+  border-left: 0.626rem solid trasparent;
+  border-bottom: 0.626rem solid transparent;
 }
 nav:after {
   position: absolute;
   content: "";
   right: 0;
   top: 100%;
-  border-top: 10px solid $darkgreen;
-  border-right: 10px solid transparent;
-  border-left: 10px solid $darkgreen;
-  border-bottom: 10px solid transparent;
+  border-top: 0.626rem solid $darkgreen;
+  border-right: 0.626rem solid transparent;
+  border-left: 0.626rem solid $darkgreen;
+  border-bottom: 0.626rem solid transparent;
 }
 
 .logo-image {
@@ -73,10 +77,10 @@ nav:after {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 100px;
-  min-height: 800px;
+  min-width: 6.25rem;
+  min-height: 50rem;
 
-  margin: 30px;
+  margin: 1.875rem;
   font-family: "Staatliches", cursive;
   font-size: 5rem;
   font-kerning: inherit;

@@ -13,13 +13,19 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-size: 16px;  
+  @media (max-width:$mobile-one ) {
+    font-size: 15px;
+  }
+  @media (max-width:$mobile-two ) {
+    font-size: 12px;
+  }
   ::-webkit-scrollbar{
     width: 8px;
     background-color: $darkgreen;
 
   }
   ::-webkit-scrollbar-thumb{
-    border-radius: 10px;
+    border-radius: 0.626rem;
     background-color: darkgray;
     box-shadow: inset 0 0 6px rgba(77, 70, 70, 0.3);
    
