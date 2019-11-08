@@ -18,11 +18,16 @@
    
     &--list{
         list-style-type: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 40px 20px 40px 20px;
-        padding: 40px 40px 40px 40px ;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+        text-align: center;
+        row-gap: 2rem;
+        margin: 2rem  auto auto 1rem;
+        
+
+        
+        
         font-family: 'Roboto Condensed', sans-serif, initial, justify;
     font-size: 1.5rem;
     
@@ -34,4 +39,11 @@
     margin-top: 10px;
     margin-bottom: 30px;
     }
+}
+
+.map{
+    position: relative ;
+    overflow: hidden;
+    border-left: 30px solid darkgray;
+    border-right: 30px solid darkgray;
 }
