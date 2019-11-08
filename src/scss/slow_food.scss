@@ -4,15 +4,19 @@
   border-left: 30px solid darkgray;
   border-right: 30px solid darkgray;
   text-align: center;
-  font-size: 1,5rem;
+  font-size: 1.5rem;
+  font-family: "Roboto Condensed", sans-serif, initial, justify;
+  padding-bottom: 2rem;
+  
+    
  
 
   &__description {
-    font-family: "Roboto Condensed", sans-serif, initial, justify;
-    font-size: 1,5rem;
+    
     letter-spacing: 1px;
-    line-height: 25px;
+    line-height: 40px;
     padding: 10px 10px 10px 10px;
+   
   }
   &__header {
     margin-top: 40px;
@@ -29,6 +33,7 @@
     list-style-type: none;
     column-gap: 2rem;
     row-gap: 2rem;
+    
   }
 }
 

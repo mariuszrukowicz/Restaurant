@@ -3,7 +3,8 @@
     margin: 0 auto;
     padding-left: 100px;
     padding-right: 100px;
-    font-family: 'Roboto Condensed', sans-serif, initial, justify;
+    padding-bottom: 2rem;
+    
     font-size: 1.5rem;
     border-left: 30px solid darkgray;
     border-right: 30px solid darkgray;
@@ -16,7 +17,7 @@
     line-height: 40px;
 
     &__header {
-        padding-top: 3rem;
+        padding-top: 2rem;
         padding-bottom: 2rem;
         text-align: center;
 
